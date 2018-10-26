@@ -512,6 +512,10 @@ public class TextEditorMain extends javax.swing.JFrame {
             }
         });
         
+        /*
+        check file saved.
+        if not ask if want to save or not.
+        */
         tem.addWindowListener(new WindowAdapter(){
            @Override
            public void windowClosing(WindowEvent e){
